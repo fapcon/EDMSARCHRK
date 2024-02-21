@@ -1,0 +1,32 @@
+version: "3"
+
+services:
+  nginxuser:
+    image: nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - mylocal
+  user1:
+    build: .
+    networks:
+      - mylocal
+  user2:
+    build: .
+    networks:
+      - mylocal
+  user3:
+    build: .
+    networks:
+      - mylocal
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: userpostgres
+      POSTGRES_DB: userserv
+    networks:
+      - mylocal
+networks:
+  mylocal:
+    external: true

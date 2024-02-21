@@ -1,0 +1,4 @@
+github.com/streadway/amqp v1.1.0 h1:py12iX8XSyI7aN/3dUT8DFIDJazNJsVJdxNVEpnQTZM=
+github.com/streadway/amqp v1.1.0/go.mod h1:WYSrTEYHOXHd0nwFeUXAe2G2hRnQT+deZJJf88uS9Bg=
+gitlab.com/ptflp/gopubsub v1.1.2 h1:8D9osqSEdPiC6GEuKigpA+dLfVs9gJirJSLCdmQDM5E=
+gitlab.com/ptflp/gopubsub v1.1.2/go.mod h1:p4rSCUzN/ZETjIcQlGnZwAueJqjSkJjb/9y2mkVkvIo=
